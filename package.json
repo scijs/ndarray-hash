@@ -1,34 +1,38 @@
 {
   "name": "ndarray-hash",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Hash table backed sparse ndarray",
   "main": "ndhash.js",
   "directories": {
     "test": "test"
   },
   "dependencies": {
-    "ndarray": "~1.0.0"
+    "ndarray": "^1.0.18"
   },
   "devDependencies": {
-    "tape": "~1.0.4"
+    "tape": "^4.0.0"
   },
   "scripts": {
-    "test": "tap test/*.js"
+    "test": "tape test/*.js"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/mikolalysenko/ndarray-hash.git"
+    "url": "git://github.com/scijs/ndarray-hash.git"
   },
   "keywords": [
+    "scijs",
     "ndarray",
     "hash",
     "sparse"
   ],
   "author": "Mikola Lysenko",
+  "contributors": [
+    "Jasper van de Gronde <th.v.d.gronde@hccnet.nl>"
+  ],
   "license": "MIT",
   "readmeFilename": "README.md",
   "gitHead": "6cdb271edf37a0c169b0078a04e89e311d283270",
   "bugs": {
-    "url": "https://github.com/mikolalysenko/ndarray-hash/issues"
+    "url": "https://github.com/scijs/ndarray-hash/issues"
   }
 }
